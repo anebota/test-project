@@ -23,7 +23,7 @@
   
    <sonar.host.url>http://54.237.157.203:9000</sonar.host.url>
    <sonar.token>squ_8f4aa1a7daf8bb9512f4f95f023a432cd7e89a15</sonar.token>
-   <sonar.projectName>bitterboy</sonar.projectName>
+   <sonar.projectName>allen-app</sonar.projectName>
   
    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
