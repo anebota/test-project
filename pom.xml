@@ -87,14 +87,14 @@
  <distributionManagement>
      <repository>
        <id>bitterboy</id>
-       <name>bitterboy</name>
-       <url>http://3.228.10.37:8081/repository/bitterboy</url>
+       <name>bitterboy-release</name>
+       <url>http://3.228.10.37:8081/repository/bitterboy-release</url>
      </repository>
      
      <snapshotRepository>
        <id>bitterboy1</id>
-       <name>bitterboy1</name>
-       <url>http://3.228.10.37:8081/repository/bitterboy1</url>
+       <name>bitterboy1-snapshot</name>
+       <url>http://3.228.10.37:8081/repository/bitterboy1-snapshot</url>
      </snapshotRepository>
  </distributionManagement>
  
