@@ -8,7 +8,6 @@
  <version>0.0.1-SNAPSHOT</version>
  
  <name>vin-solutions-app</name>
-
  <description>sweetgirl</description>
 
  <organization>
@@ -24,13 +23,11 @@
   
    <sonar.host.url>http://54.237.157.203:9000</sonar.host.url>
    <sonar.token>squ_8f4aa1a7daf8bb9512f4f95f023a432cd7e89a15</sonar.token>
-   <sonar.projectName>vin-movies</sonar.projectName>
+   <sonar.projectName>bitterboy</sonar.projectName>
   
    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-         
  </properties>
-
 
  <dependencies>
   
@@ -40,40 +37,32 @@
    <version>20160212</version>
   </dependency>
   
-  <!-- test dependencies -->
+  <!-- Test dependencies -->
   <dependency>
    <groupId>junit</groupId>
    <artifactId>junit</artifactId>
-   <version>3.8.1</version>
+   <version>${junit.version}</version>
    <scope>test</scope>
-  </dependency>
-
-  <dependency>
-   <groupId>javax.servlet</groupId>
-   <artifactId>javax.servlet-api</artifactId>
-   <version>3.1.0</version>
-   <scope>provided</scope>
   </dependency>
 
   <dependency>
    <groupId>org.mockito</groupId>
    <artifactId>mockito-core</artifactId>
-   <version>1.9.5</version>
+   <version>3.12.4</version>
    <scope>test</scope>
   </dependency>
-
-  <!-- compile dependencies -->
-
+  
+  <!-- Compile dependencies -->
   <dependency>
    <groupId>org.springframework</groupId>
    <artifactId>spring-core</artifactId>
    <version>${spring.version}</version>
   </dependency>
   <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-web</artifactId>
-      <version>${spring.version}</version>
-    </dependency>
+   <groupId>org.springframework</groupId>
+   <artifactId>spring-web</artifactId>
+   <version>${spring.version}</version>
+  </dependency>
   <dependency>
    <groupId>org.springframework</groupId>
    <artifactId>spring-webmvc</artifactId>
@@ -85,8 +74,7 @@
    <version>${spring.version}</version>
   </dependency>
   
-  <!-- provided dependencies -->
-
+  <!-- Provided dependencies -->
   <dependency>
    <groupId>javax.servlet</groupId>
    <artifactId>javax.servlet-api</artifactId>
@@ -108,11 +96,10 @@
        <name>bitterboy1</name>
        <url>http://3.228.10.37:8081/repository/bitterboy1</url>
      </snapshotRepository>
-     
  </distributionManagement>
  
  <build>
-  <finalName>wizard</finalName>
+  <finalName>test-jenkins</finalName>
   
   <plugins>
    <plugin>
@@ -128,7 +115,7 @@
    <plugin>
     <groupId>org.eclipse.jetty</groupId>
     <artifactId>jetty-maven-plugin</artifactId>
-    <version>9.2.11.v20150529</version>
+    <version>9.4.44.v20210927</version>
     <configuration>
      <scanIntervalSeconds>10</scanIntervalSeconds>
      <webApp>
@@ -148,9 +135,6 @@
      <wtpContextName>maven-web-application</wtpContextName>
     </configuration>
    </plugin>
-   
-</plugins>
+  </plugins>
  </build>
- 
- 
 </project>
