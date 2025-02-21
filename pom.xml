@@ -98,21 +98,21 @@
  
  <distributionManagement>
      <repository>
-       <id>nexus</id>
-       <name>vin-movies-release</name>
-       <url>http://localhost:8081/repository/vin-movies-release/</url>
+       <id>bitterboy</id>
+       <name>bitterboy</name>
+       <url>http://3.228.10.37:8081/repository/bitterboy</url>
      </repository>
      
      <snapshotRepository>
-       <id>nexus</id>
-       <name>vin-movies-snapshot</name>
-       <url>http://localhost:8081/repository/vin-movies-snapshot/</url>
+       <id>bitterboy1</id>
+       <name>bitterboy1</name>
+       <url>http://3.228.10.37:8081/repository/bitterboy1</url>
      </snapshotRepository>
      
  </distributionManagement>
  
  <build>
-  <finalName>vin-movies</finalName>
+  <finalName>bittergirl</finalName>
   
   <plugins>
    <plugin>
