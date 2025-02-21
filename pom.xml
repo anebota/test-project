@@ -9,7 +9,7 @@
  
  <name>vin-solutions-app</name>
 
- <description>Vin Movie Project</description>
+ <description>sweetgirl</description>
 
  <organization>
   <name>Vin Technologies</name>
@@ -112,7 +112,7 @@
  </distributionManagement>
  
  <build>
-  <finalName>bittergirl</finalName>
+  <finalName>wizard</finalName>
   
   <plugins>
    <plugin>
