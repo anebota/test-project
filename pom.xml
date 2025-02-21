@@ -86,15 +86,15 @@
  
  <distributionManagement>
      <repository>
-       <id>bitterboy</id>
-       <name>bitterboy-release</name>
-       <url>http://3.228.10.37:8081/repository/bitterboy-release</url>
+       <id>allen-app</id>
+       <name>allen-app-release</name>
+       <url>http://3.228.10.37:8081/repository/allen-app-release</url>
      </repository>
      
      <snapshotRepository>
-       <id>bitterboy1</id>
-       <name>bitterboy1-snapshot</name>
-       <url>http://3.228.10.37:8081/repository/bitterboy1-snapshot</url>
+       <id>allen-app-v1.0.0</id>
+       <name>allen-app-v1.0.0-snapshot</name>
+       <url>http://3.228.10.37:8081/repository/allen-app-v1.0.0-snapshot</url>
      </snapshotRepository>
  </distributionManagement>
  
