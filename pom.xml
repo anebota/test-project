@@ -27,7 +27,7 @@
   <sonar.password>Bakayoko@83123</sonar.password>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-  <sonar.projectKey>squ_8f4aa1a7daf8bb9512f4f95f023a432cd7e89a15</sonar.projectKey>
+  <sonar.token>squ_8f4aa1a7daf8bb9512f4f95f023a432cd7e89a15</sonar.token>
   <sonar.projectName>vin-movies</sonar.projectName>
         
  </properties>
