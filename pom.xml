@@ -21,7 +21,7 @@
    <junit.version>4.11</junit.version>
    <log4j.version>1.2.17</log4j.version>
   
-   <sonar.host.url>http://54.237.157.203:9000</sonar.host.url>
+   <sonar.host.url>http://18.209.227.243:9000</sonar.host.url>
    <sonar.token>squ_8f4aa1a7daf8bb9512f4f95f023a432cd7e89a15</sonar.token>
    <sonar.projectName>allen-app</sonar.projectName>
   
@@ -88,13 +88,14 @@
      <repository>
        <id>allen-app</id>
        <name>allen-app-release</name>
-       <url>http://3.228.10.37:8081/repository/allen-app-release</url>
+       <url>http://3.235.159.108:8081/repository/allen-app-release</url>
      </repository>
      
      <snapshotRepository>
        <id>allen-app-v1.0.0</id>
        <name>allen-app-v1.0.0-snapshot</name>
-       <url>http://3.228.10.37:8081/repository/allen-app-v1.0.0-snapshot</url>
+       <url>http://3.235.159.108:8081/repository/allen-app-v1.0.0-snapshot</url>
+       <url>nexus-snapshot-url</url>
      </snapshotRepository>
  </distributionManagement>
  
